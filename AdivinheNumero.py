@@ -199,7 +199,9 @@ def jogo():
     elif tentativas >= 5:
         time.sleep(0.5)
         #Exibe a mensagem
-        print(bot + 'Você esgotou o número de tentativas. Boa sorte na próxima!\n\n\n\n')
+        print('\n' + bot + 'Você esgotou o número de tentativas. Boa sorte na próxima!')
+        time.sleep(0.5)
+        print(bot + 'O número que eu estava pensando era o {}'.format(num_bot))
 
     time.sleep(1)
     #Bot agradece
@@ -234,7 +236,7 @@ def jogo():
     elif escolha == '2':
         #Se despede e sai
         time.sleep(0.5)
-        print(bot + 'Que pena que precisa sair')
+        print('\n' + bot + 'Que pena que precisa sair')
         time.sleep(0.5)
         print(bot + 'Até mais {}!'.format(usuario.replace(': ', '').replace('\t', '').replace(azul, '')))
         time.sleep(3)
