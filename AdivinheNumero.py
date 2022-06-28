@@ -226,7 +226,6 @@ def jogo():
         #Recebe a escolha do usuário
         escolha = str(input('\n\tDigite o número da opção desejada: ' + amarelo))
 
-
     #Se for jogar novamente
     if escolha == '1':
         #Chama a mesma função
