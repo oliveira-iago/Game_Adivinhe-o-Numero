@@ -44,7 +44,6 @@ usuario = str(input('\tEu me chamo ' + azul))
 #Formata o nome
 usuario = '\t' + azul + usuario + ': ' + limpa
 
-
 #Função principal do game
 def jogo():
     #Animação de Carregando...
