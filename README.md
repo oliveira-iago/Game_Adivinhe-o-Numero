@@ -9,3 +9,5 @@ Há três níveis diferentes:
 * Normal  - Número entre 1 e 20
 * Difícil - Número entre 1 e 50
 * Insano  - Número entre 1 e 100
+
+Bom Jogo :)
